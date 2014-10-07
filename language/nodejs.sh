@@ -1,3 +1,4 @@
 # Install nodejs
-curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
 sudo apt-get install nodejs
